@@ -1,3 +1,28 @@
+:root {
+    --body-bg-color: #fff;
+    --black-color: #FFFFFF;
+    --white-color: #292e36;
+    --gray-color: #555;
+    --transparent-gray: rgba(255, 255, 255, 0.4);
+    --card-color: #343942;
+    --we-offer-border: #323841;
+    --book-table: rgba(41, 46, 54, 0.95);
+}
+
+:root[theme='dark'] {
+
+    --body-bg-color: #292e36;
+    --black-color: #292E36;
+    --white-color: #fff;
+    --gray-color: #dad7d7;
+    --transparent-gray: #555;
+    --card-color: #9e9c9c;
+    --we-offer-border: #717477;
+    --book-table: rgba(137, 139, 141, 0.95);
+
+}
+
+
 @media screen and (max-width: 768px) {
 
     .header__preview,
@@ -31,7 +56,8 @@
     .burger span {
         width: 60px;
         height: 3px;
-        background-color: #fff;
+     
+      background-color: var(--white-color);
     }
 
     .burger__content {
@@ -46,6 +72,10 @@
         align-items: center;
         justify-content: center;
 
+    }
+
+    .burger__logo {
+        width: 250px;
     }
 
     .burger__btns {
@@ -69,6 +99,10 @@
 
     .burger__btn:hover {
         color: #e1b168;
+    }
+
+    .header {
+        height: 0;
     }
 
     .delivery__story {
@@ -105,7 +139,7 @@
     }
 
     .we__offer {
-        height: 1000px;
+        height: 1100px;
     }
 
     .we__offer__content {
@@ -119,9 +153,68 @@
         grid-template-columns: minmax(0, 1fr);
     }
 
+    .blog__second__title {
+        text-align: center;
+    }
+
     .blog__cards {
         grid-row-gap: 30px;
         grid-template-columns: minmax(0, 1fr);
+    }
+
+    .book__table__form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .footer__hashtag {
+
+        margin-bottom: 0px;
+    }
+
+    .footer__networks {
+
+        margin-bottom: 0px;
+    }
+
+    .footer__copyright {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__copyright__right {
+        order: 1;
+    }
+
+    .footer__copyright__left {
+        order: 2;
+    }
+
+    .footer__preview {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__main {
+        order: 1;
+    }
+
+    .footer__preview {
+        order: 2
+    }
+
+    .footer__main {
+        /*  display: none; */
+    }
+
+    .footer__titles {
+        /*
+        display: none;
+    */
+    }
+
+    .footer__main__element {
+        flex-direction: column;
     }
 
 }
@@ -135,7 +228,42 @@
 
 @media screen and (max-width: 450px) {
     .welcome__title {
-        font-size: 32px;
+        font-size: 23px;
+
+    }
+
+    .welcome__content {
+
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .dishes__content {
+        padding-left: 20px;
+        padding-right: 20px;
+        /* 
+    */
+    }
+
+    .dish__element__price {
+        display: none;
+    }
+
+    .dish__element__line {
+        display: none;
+    }
+
+    .dish__element__image {
+        width: 60px;
+    }
+
+    .dish__element__title {
+        font-size: 20px;
+    }
+
+    .dish__element__about {
+        font-size: 16px;
     }
 
     .mini__info__item {
@@ -155,6 +283,40 @@
     .mini__info__item__about {
         font-size: 17px;
     }
+
+    .popular__content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .popular__card__header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__copyright__item {
+
+        white-space: wrap;
+    }
+
+    .footer__copyright__left {
+        max-width: 340px;
+    }
+
+    .footer__preview__logo {
+        width: 240px;
+    }
+
+    .footer__main__element__day {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer__copyright__right {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 
@@ -166,5 +328,18 @@
     .book__table__forms__first,
     .book__table__forms__second {
         flex-direction: column;
+    }
+
+    .footer__copyright__right {
+        column-gap: 5px;
+    }
+
+    .footer__preview__logo {
+        max-width: 280px;
+        height: auto;
+    }
+
+    .footer__main__element__form__btn {
+        min-width: 150px;
     }
 }

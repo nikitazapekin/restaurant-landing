@@ -18,7 +18,7 @@
     width: 60px;
 color: #E1B168;
     position: fixed;
-    top: 10px;
+    top: 60px;
     left: 10px;
     cursor: pointer;
   }
@@ -26,4 +26,15 @@ color: #E1B168;
   #arrowTop::before {
     content: '▲';
     font-size: 44px;
+  }
+
+
+  .animated-card {
+    perspective: 300px;
+    transition: 1s;
+    cursor: pointer;
+
+  }
+  .animated-card:hover {
+    transform: rotateY(-15deg) rotateX(-20deg);
   }

@@ -47,7 +47,8 @@
         justify-content: space-between;
         row-gap: 10px;
         align-items: center;
-
+        height: 500px;
+        padding-bottom: 10px;
 
 
     }
@@ -84,6 +85,67 @@
     .offers__card {
         width: 100%;
     }
+
+
+    .footer__main {
+        flex-direction: column;
+        align-items: center;
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+
+    .footer__main__element {
+        display: flex;
+        column-gap: 20px;
+    }
+
+
+
+
+    .footer__main__element__subtitle {
+        margin-top: 0px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        white-space: nowrap;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .footer__main__element__email {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 158%;
+        white-space: nowrap;
+        letter-spacing: 0.01em;
+        color: #e1b168;
+
+    }
+
+    .footer__main__element__tel {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 158%;
+        white-space: nowrap;
+        letter-spacing: 0.01em;
+        color: #e1b168;
+    }
+
+    .footer__working__hours {
+        display: none;
+    }
+
+    .footer__titles__element:nth-child(2) {
+        transform: translateX(0px);
+    }
+
+    .footer__main__element__title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -100,16 +162,19 @@
     .dish__element__about {
         white-space: wrap;
     }
+
     .we__offer__content {
         flex-direction: column;
     }
 }
+
 @media screen and (max-width: 1400px) {
     .popular__cards {
         grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
         display: grid;
         grid-row-gap: 40px;
     }
+
     .popular__card__image {
         width: 100%;
     }

@@ -20,8 +20,6 @@ btns[1].addEventListener("click", () => {
         btns[0].classList.add("active__card")
         btns[1].classList.remove("active__card")
     }
-
-
 })
 
 btns[0].addEventListener("click", () => {
