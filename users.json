@@ -1,0 +1,20 @@
+[
+    {
+        "user": "Natasha D",
+        "logo": "./static/users/Frame-1.png",
+        "location": "Newyork",
+        "about": "They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy."
+    },
+    {
+        "user": "Jack Sparrow",
+        "logo": "./static/users/Frame-2.png",
+        "location": "Salt Lake City",
+        "about": "I have visited this fantastic restaurant on several occasions, food is absolutely outstanding & attention to detail is in league of its own."
+    },
+    {
+        "user": "Martin",
+        "logo": "./static/users/Frame-3.png",
+        "location": "San Diego",
+        "about": "Perfectly known for its fabulous taste and food. Anywhere your hunger is satisfied. They give best fried chicken and burgers those are yummy."
+    }
+]

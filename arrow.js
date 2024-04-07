@@ -5,3 +5,4 @@ arrowTop.onclick = function() {
   window.addEventListener('scroll', function() {
     arrowTop.hidden = (pageYOffset < document.documentElement.clientHeight);
   });
+

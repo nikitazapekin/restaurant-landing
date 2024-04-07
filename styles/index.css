@@ -967,13 +967,20 @@ flex: 0 1 743px;
 }
 
 .customers__carousel {
-    display: flex;
+    display: flex; 
+  /*
+  
+  display: grid;
+  grid-template-columns: minmax(300px 544px) minmax(300px 544px) minmax(300px 544px);
+  */
     position: absolute;
     column-gap: 30px;
     transition: 1s ease;
-    width: auto;
-}
+width: auto;
 
+  
+}
+ 
 .customers__cards::-webkit-scrollbar {
     /* убрали видимость полоски скроллинга*/
     width: 0px;
@@ -981,9 +988,10 @@ flex: 0 1 743px;
 }
 
 .customer__card {
-    flex: 0 0 544px;
-    /*padding-left: 40px;
-   padding-right: 40px; */
+  /*  
+  */
+  flex: 0 0 544px;
+ 
     background-color: var(--card-color);
     height: 332px
 }
@@ -2137,3 +2145,9 @@ color: var(--white-color);
     position: relative;
     z-index: 1111111;
 }
+
+
+
+
+
+ 
