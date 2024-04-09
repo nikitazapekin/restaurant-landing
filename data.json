@@ -1,0 +1,66 @@
+  {
+    "test": "1",
+    "dishes-starters": [
+        {
+            "title": "Raw Scallops from Erquy",
+            "about":  "$40",
+            "price": "Shuck the scallop to that used for oysters",
+            "url" :  "./static/dishes/IMAGE.png"
+        },
+        {
+            "title": "Raw Scallops from Erquy",
+            "about":  "$40",
+            "price": "Shuck the scallop to that used for oysters",
+            "url" :  "./static/dishes/IMAGE.png"
+        },
+        {
+            "title": "Raw Scallops from Erquy",
+            "about":  "$40",
+            "price": "Shuck the scallop to that used for oysters",
+            "url" :  "./static/dishes/IMAGE.png"
+        }
+    ],
+
+
+    "dishes-main": [
+        {
+            "title": "Raw Scallops from Erquy",
+            "about":  "$40",
+            "price": "Shuck the scallop to that used for oysters",
+            "url" :  "./static/dishes/IMAGE.png"
+        },
+        {
+            "title": "Raw Scallops from Erquy",
+            "about":  "$40",
+            "price": "Shuck the scallop to that used for oysters",
+            "url" :  "./static/dishes/IMAGE.png"
+        },
+        {
+            "title": "Raw Scallops from Erquy",
+            "about":  "$40",
+            "price": "Shuck the scallop to that used for oysters",
+            "url" :  "./static/dishes/IMAGE.png"
+        },
+        {
+            "title": "Raw Scallops from Erquy",
+            "about":  "$40",
+            "price": "Shuck the scallop to that used for oysters",
+            "url" :  "./static/dishes/IMAGE.png"
+        }
+    ],
+    "dishes-desert": [
+        {
+            "title": "Raw Scallops from Erquy",
+            "about":  "$40",
+            "price": "Shuck the scallop to that used for oysters",
+            "url" :  "./static/dishes/IMAGE.png"
+        },
+        {
+            "title": "Raw Scallops from Erquy",
+            "about":  "$40",
+            "price": "Shuck the scallop to that used for oysters",
+            "url" :  "./static/dishes/IMAGE.png"
+        }
+        
+    ]
+}
